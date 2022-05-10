@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+  #imagesizehome
+      {
+        height: 473px;
+        width:100%;
+      }
+* {box-sizing: border-box}
+
+/* Set height of body and the document to 100% */
+body, html {
+  height: 1000px;
+  margin: 0;
+  font-family: Arial;
+}
+
+/* Style tab links */
+.tablink {
+  background-color: #555;
+  color: white;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  font-size: 17px;
+  width: 20%;
+}
+
+.tablink:hover {
+  background-color: #777;
+}
+
+/* Style the tab content (and add height:100% for full page content) */
+.tabcontent {
+  color: white;
+  display: none;
+  padding: 100px 20px;
+  height: 100%;
+}
+.button {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 10px;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  margin-left: 150px;
+}
+.button a {
+    float: left;
+    color: #efeeee;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+.button:hover {
+  background-color: #555;
+}
+.column {
+  float: left;
+  width: 25%;
+
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+
+#Home {background-color: rgb(0, 0, 0);}
+#Services {background-color: rgba(0, 0, 0, 0.873);}
+#Contact {background-color: rgb(0, 0, 0);}
+#About {background-color: rgb(0, 0, 0);}
+#product {background-color: rgb(0, 0, 0);}
+</style>
+</head>
+<body>
+
+<button class="tablink" onclick="openPage('Home', this, 'rgba(192, 196, 192, 0.873)')"id="defaultOpen">Home</button>
+<button class="tablink" onclick="openPage('product', this, 'rgba(192, 196, 192, 0.873)')">Products</button>
+<button class="tablink" onclick="openPage('Services', this, 'rgba(192, 196, 192, 0.873)')">Services</button>
+<button class="tablink" onclick="openPage('Contact', this, 'rgba(192, 196, 192, 0.873)')">Contact us</button>
+<button class="tablink" onclick="openPage('About', this, 'rgba(192, 196, 192, 0.873)')">About us</button>
+
+<div id="Home" class="tabcontent">
+  <h1 style="font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;" align="center">Welcome to Nike world</h1>
+  <a href="https://www.google.com/aclk?sa=L&ai=DChcSEwid4fC77tL3AhUVqZYKHaTTD84YABAAGgJ0bA&sig=AOD64_1lDGB4k29QLQMmlnsGgXQAGTD29g&q&adurl&ved=2ahUKEwiUpui77tL3AhVECN4KHeXvDSwQ0Qx6BAgEEAE"><img src="tag1.jpg" alt="" style="height: 500px; width: 1480px;" align="left"></a>
+  <button class="button"><a href="https://www.nike.com/in/w/mens-shoes-nik1zy7ok" style="font-size: 29px; color: rgb(255, 255, 255);" align="center center">Men's collection</a></button>
+  <button class="button"><a href="https://www.nike.com/in/w/womens-shoes-5e1x6zy7ok" style=" font-size: 29px;">  Women's shoes</a></button>
+  <button class="button"><a href="https://www.nike.com/in/kids" style="font-size: 29px; color: rgb(255, 255, 255);" >  Kids special</a></button>
+</div>
+
+<div id="product" class="tabcontent" style="height: 1500px;">
+  <h2>Men's Shoes:</h2>
+  <div class="row">
+    <div class="column">
+      <div class="card">
+        <a href="https://www.nike.com/in/t/air-presto-hello-kitty-shoes-Nm5Dd5/DV3770-400"><img src="tagp1.png" alt="" id="imagesizehome"></a>
+        <div class="container">
+        </div>
+      </div>
+    </div>
+  
+    <div class="column">
+      <div class="card">
+        <a href="https://www.nike.com/in/t/dunk-high-retro-se-shoes-tXRLdK/DD3359-001"><img src="tagp2.png" alt="" id="imagesizehome"></a>
+        <div class="container">
+        </div>
+      </div>
+    </div>
+
+    <div class="column">
+      <div class="card">
+        <a href="https://www.nike.com/in/t/blazer-mid-77-jumbo-shoes-kWXfC7/DD3111-102"><img src="tagp3.png" alt="" id="imagesizehome"></a>
+        <div class="container">
+        </div>
+      </div>
+    </div>
+
+    <div class="column">
+      <div class="card">
+        <a href="https://www.nike.com/in/t/air-max-90-slide-bPJh33/BQ4635-002"><img src="tagp4.png" alt="" id="imagesizehome"></a>
+        <div class="container">
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <hr>
+
+  <h2>Women's Shoes</h2>
+  <div class="row">
+    <div class="column">
+      <div class="card">
+        <a href="https://www.nike.com/in/t/air-force-1-07-shoes-ZMwtBc/DQ9320-100"><img src="tagp5.png" alt="" id="imagesizehome"></a>
+        <div class="container">
+        </div>
+      </div>
+    </div>
+    
+    <div class="column">
+      <div class="card">
+        <a href="https://www.nike.com/in/t/air-force-1-fontanka-shoes-sJrqz3/DH1290-100"><img src="tagp6.png" alt="" id="imagesizehome"></a>
+        <div class="container">
+        </div>
+      </div>
+    </div>
+
+    <div class="column">
+      <div class="card">
+        <a href="https://www.nike.com/in/t/air-zoom-pegasus-39-road-running-shoes-0ksHjP/DH4072-501"><img src="tagp7.png" alt="" id="imagesizehome"></a>
+        <div class="container">
+        </div>
+      </div>
+    </div>
+
+    <div class="column">
+      <div class="card">
+        <a href="https://www.nike.com/in/t/zoomx-streakfly-road-racing-shoes-V17qZm/DJ6566-100"><img src="tagp8.png" alt="" id="imagesizehome"></a>
+        <div class="container">
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div id="Services" class="tabcontent">
+  <h2>QUICK ASSISTS</h2>
+  <h3>Answers to our most frequently asked questions are just one click away.</h3>
+  <hr>
+  <h4>Return policy</h4>
+  <h4>We design our shoes and gear to help you perform at peak level, so if they're not working exactly right for you, we've got you covered. We give you 30 days to take your Nike purchases for a trial run, confidently knowing you can return items (some exceptions apply) for any reason within those 30 days. That includes custom Nike By You sneakers. Even after 30 days, you can still return items if they're unworn and unwashed.
+
+    And remember, returns are always free for Nike Members—just make sure you sign in during checkout.
+    
+    So go ahead, shop with confidence and enjoy your 30-day trial.</h4>
+    <h4>WHAT IS NIKE MEMBERSHIP?</h4>
+    <h4>Nike Membership gives you access to inspiration, community and exclusive Nike products. It's the best way to access everything Nike and it's free, fast and easy to join. You can join online or when you download any of the Nike Apps. And you'll enjoy immediate benefits:
+
+      Free returns. Just sign in when you shop and you'll automatically get free delivery for returns.
+      Member Shop. A unique collection of Nike shoes and gear that is only available to Nike Members.
+      Deals. Special offers and promos to thank our Members and to celebrate big moments, like birthdays.
+      Access. You'll need to be a Nike Member to access:
+      NIKE APP
+      Shop. Everything that Nike has to offer—tailored to you. The Nike App is your daily destination for the world of sport and puts the latest products and stories at your fingertips.
+      NIKE RUN CLUB APP
+      Run. Find the motivation you need to run better and more often.
+      Guided Runs. Focus your mind and body on your next run with the voices and guidance of Nike Coaches and athletes.
+      NIKE TRAINING CLUB APP
+      Move with us. Break a sweat with hundreds of workouts for all fitness levels and a broad range of different styles, lengths and intensity levels.
+      SNKRS
+      Get them. This is where you'll find our latest sneaker drops.
+      Community. Discover the SNKRS community, the heritage of your favourite pairs, and sneaker stories.</h4>
+</div>
+
+<div id="Contact" class="tabcontent">
+  <h3>PRODUCTS & ORDERS:- 000 800 919 0638</h3>
+  <h3>COMPANY INFO & ENQUIRIES:- 000 800 919 0566</h3>
+</div>
+
+<div id="About" class="tabcontent">
+  
+  <p>Nike, Inc., formerly (1964–78) Blue Ribbon Sports, American sportswear company headquartered in Beaverton, Oregon. It was founded in 1964 as Blue Ribbon Sports by Bill Bowerman, a track-and-field coach at the University of Oregon, and his former student Phil Knight. They opened their first retail outlet in 1966 and launched the Nike brand shoe in 1972. The company was renamed Nike, Inc., in 1978 and went public two years later. By the early 21st century, Nike had retail outlets and distributors in more than 170 countries, and its logo—a curved check mark called the “swoosh”—was recognized throughout the world.
+
+    From the late 1980s Nike steadily expanded its business and diversified its product line through numerous acquisitions, including the shoe companies Cole Haan (1988; sold in 2012) and Converse, Inc. (2003), the sports-equipment producer Canstar Sports, Inc. (1994; later called Bauer and sold in 2008), and the athletic apparel and equipment company Umbro (2008; sold in 2012). In 1996 the company created Nike ACG (“all-conditions gear”), which markets products for extreme sports such as snowboarding and mountain biking. In the early 21st century Nike began selling sports-technology accessories, including portable heart-rate monitors and high-altitude wrist compasses.
+    
+    Part of Nike’s success is owed to endorsements by such athletes as Michael Jordan, Mia Hamm, Roger Federer, and Tiger Woods. The NikeTown chain stores, the first of which opened in 1990, pay tribute to these and other company spokespersons while offering consumers a full range of Nike products. In the 1990s the company’s image briefly suffered from revelations about poor working conditions in its overseas factories.</p>
+</div>
+
+
+<script>
+function openPage(pageName,elmnt,color) {
+  var i, tabcontent, tablinks;
+  tabcontent = document.getElementsByClassName("tabcontent");
+  for (i = 0; i < tabcontent.length; i++) {
+    tabcontent[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablink");
+  for (i = 0; i < tablinks.length; i++) {
+    tablinks[i].style.backgroundColor = "";
+  }
+  document.getElementById(pageName).style.display = "block";
+  elmnt.style.backgroundColor = color;
+}
+
+// Get the element with id="defaultOpen" and click on it
+document.getElementById("defaultOpen").click();
+</script>
+</body>
+</html> 
